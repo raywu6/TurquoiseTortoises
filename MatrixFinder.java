@@ -59,35 +59,9 @@ public class MatrixFinder {
 	    } // end while loop
 
 	return ("(" + r + "," +  c + ")"); // if it breaks out of the while loop, it means that the value has been found. Returns the row and column coordinates.
+
+
     } // end method finder
-
-
-    public static void main(String[] args)
-    {
-	int[][] m =  { {1,2,3}, {2,3,4}, {3,4,5} };
-	System.out.println( finder( m,  5));  // should return (2,2)
-	System.out.println( finder( m,  3));  // should return (0,2) -- BEST CASE, at top-right
-	System.out.println( finder( m, -1));  // should return (-1,-1)
-	System.out.println( finder( m,  6));  // should return (-1,-1)
-
-
-	System.out.println( "=========================================");
-	
-	int[][] m2 = { {1} };
-	System.out.println( finder( m2, 1));  // should return (0,0)
-	System.out.println( finder( m2, 0));  // should return (-1,-1)
-
-	System.out.println( "=========================================");
-
-	int[][] m3 = { {12, 15, 18}, {15, 18, 20}, {100, 200, 250}};
-	System.out.println( finder( m3,  18)); // should return (0,2)
-	System.out.println( finder( m3, 100)); // should return (2,0) -- WORST CASE, at bottom-left
-	System.out.println( finder( m3, 200)); // should return (2,1)
-	System.out.println( finder( m3, 250)); // should return (2,2)
-
-
-    } // end main method
-
 
 } // end class MatrixFinder
 		
