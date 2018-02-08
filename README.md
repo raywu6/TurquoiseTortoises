@@ -1,9 +1,9 @@
-TurquoiseTortoises (Alvin Ye, Jessica Wu, Raymond Wu )
-APCS2 pd8
-Lab00 -- But What Does the Data Say?
-2018-02-07
+##### TurquoiseTortoises (Alvin Ye, Jessica Wu, Raymond Wu )
+##### APCS2 pd8
+##### Lab00 -- But What Does the Data Say?
+##### 2018-02-07
 
-#
+# The Effect of the Length of a Matrix (n) on RunTime (ms)
 
 ## Hypothesis
 Our finder method will run in O(n) time, where n is the length of the nxn array. This is because our method iterates through one column and one row, making it run in O(2n), or O(n).
