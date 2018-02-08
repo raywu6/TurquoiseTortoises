@@ -3,13 +3,6 @@
 //APCS2 pd8
 //2018-02-01
 
-/*- This method takes an int[][] array and an int parameter (for the target).
-  - Start at the element at the top-right corner.
-  - Goes down last column until it hits a value greater than target
-  - Goes left until it finds target
-  - returns (r,c) coordinates if found, else returns (-1,-1)
-  - this runs in O(n) time
-*/
 
 import java.lang.*;
 
