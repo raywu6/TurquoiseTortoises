@@ -1,7 +1,7 @@
- TurquoiseTortoises (Jessica Wu, Raymond Wu, Alvin Ye)__
- APCS2 pd8__
- Lab00 -- But What Does the Data Say?__
- 2018-02-07__
+ TurquoiseTortoises (Jessica Wu, Raymond Wu, Alvin Ye) __
+ APCS2 pd8 __ 
+ Lab00 -- But What Does the Data Say? __
+ 2018-02-07 __
 
 # The Effect of the Length of a Matrix (n) on Runtime (milliseconds)
 
@@ -15,7 +15,7 @@ Our finder method will run in O(n) time, where n is the length of the n*n array.
 
 
 ## Methodology
-- Using a runTest() method, run the finder method on a randomly-generated 2000 x 2000, 4000 x 4000, 6000 x 6000, 8000 x 8000, 10000 x 10000, 15000 x 15000, 20000 x 20000, and 25000 x 25000 matrix.__
+- Using a runTest() method, run the finder method on a randomly-generated 2000 x 2000, 4000 x 4000, 6000 x 6000, 8000 x 8000, 10000 x 10000, 15000 x 15000, 20000 x 20000, and 25000 x 25000 matrix. __
 	Note: We ran the finder method 100 times on each of these arrays to gather sizable data for the scatterplot.
 - Store the time before running finder method using ``System.currentTimeMillis()`` in a ``long`` variable.
 - Store the time after  running finder method using ``System.currentTimeMillis()`` in a ``long`` variable.
