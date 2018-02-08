@@ -170,7 +170,7 @@ public class MatrixFinder {
 
 	 */
 	
-	// 1000 trials for 50000*50000 matrix
+	// 1000 trials for 25000*25000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(25000);
