@@ -65,62 +65,74 @@ public class MFDriver {
     public static void main(String[] args)
     {
 	/* TOP COMMENT-OUTER
-	 */
+
 	
-	// 1000 trials for 2000*2000 matrix
+	// 100 trials for 2000*2000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(2000);
 	    }
-	
+		 */
 	
 	
 	/* BOTTOM COMMENT-OUTER
-	// 1000 trials for 4000*4000 matrix
+	// 100 trials for 4000*4000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(4000);
 	    }
 
-	// 1000 trials for 6000*6000 matrix
+	// 100 trials for 6000*6000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(6000);
 	    }
 
-	// 1000 trials for 8000*8000 matrix
+	// 100 trials for 8000*8000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(8000);
 	    }
 
 	
-	// 1000 trials for 10000*10000 matrix
+	// 100 trials for 10000*10000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(10000);
 	    }
 
-	// 1000 trials for 15000*15000 matrix
+	// 100 trials for 12500*12500 matrix
+	for ( int counter = 0; counter < 100; counter++)
+	    {
+		runTest(12500);
+	    }	    
+
+	// 100 trials for 15000*15000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(15000);
 	    }
 	
-	// 1000 trials for 20000*20000 matrix
+	// 100 trials for 20000*20000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(20000);
 	    }
 
 	
-	// 1000 trials for 25000*25000 matrix
+	// 100 trials for 25000*25000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
 		runTest(25000);
 	    }
-
 	*/
+
+	// 100 trials for 17500*17500 matrix
+	for ( int counter = 0; counter < 100; counter++)
+	    {
+		runTest(17500);
+	    }
+
     } // end main method
 
 
