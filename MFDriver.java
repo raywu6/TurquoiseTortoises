@@ -112,7 +112,13 @@ public class MFDriver {
 	    {
 		runTest(15000);
 	    }
-	
+
+	// 100 trials for 17500*17500 matrix
+	for ( int counter = 0; counter < 100; counter++)
+	    {
+		runTest(17500);
+	    }
+	    
 	// 100 trials for 20000*20000 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
@@ -127,10 +133,12 @@ public class MFDriver {
 	    }
 	*/
 
-	// 100 trials for 17500*17500 matrix
+
+
+	// 100 trials for 22500*22500 matrix
 	for ( int counter = 0; counter < 100; counter++)
 	    {
-		runTest(17500);
+		runTest(22500);
 	    }
 
     } // end main method
