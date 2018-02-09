@@ -26,7 +26,7 @@ Our finder method will run in O(n) time, where n is the length of the n*n array.
 
 ## Results
 
-![TurquoiseTortoise Scatterplot](https://imgur.com/ikTrKqW).
+![TurquoiseTortoise Scatterplot](https://i.imgur.com/P1ZLcXR.png).
 
 ## Conclusions
 - In our Google scatterplot, we saw that the data was more or less linear, but it seemed to have a slight parabolic curve. Considering that the n value ranged from 0 to 25000 and that the curve was so insignificant, we concluded that our code ran in more or less O(n) time.
